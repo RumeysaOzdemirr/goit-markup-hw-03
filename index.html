@@ -10,33 +10,35 @@
     <link href="./css/styles.css" rel="stylesheet" />
     <title>Web Studio Main Page</title>
   </head>
-  <body>
-    <header class="top-line">
-      <a href="#main page" target="_blank" class="logo">
-        <span class="logo-web">WEB</span><span class="logo-studio">STUDIO</span>
-      </a>
-
-      <nav>
-        <ul>
-          <li><a href="#Studio" class="studio-nav">Studio</a></li>
-          <li><a href="#Portfolio" class="portfolio-nav">Portfolio</a></li>
-          <li><a href="#Contacts" class="contacts-nav">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contact">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+11 (000) 111-11-11" class="link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+  <body class="container">
+    <header class="header">
+      <div class="container-header">
+        <a href="#main page" target="_blank" class="logo">
+          <span class="logo-web">WEB</span
+          ><span class="logo-studio">STUDIO</span>
+        </a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#Studio" class="studio-nav">Studio</a></li>
+            <li><a href="#Portfolio" class="portfolio-nav">Portfolio</a></li>
+            <li><a href="#Contacts" class="contacts-nav">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="contact">
+          <ul class="link">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+11 (000) 111-11-11" class="link-phone"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -48,37 +50,45 @@
         <button class="section-button" type="button">Order Servive</button>
       </section>
 
-      <section class="working-method">
-        <h3 class="method-title">Strategy</h3>
-        <p class="method-text">
-          Our goal is to identify the business<br />
-          problem to walk away with the<br />
-          perfect and creative solution.
-        </p>
-        <h3 class="method-title">Punctulity</h3>
-        <p class="method-text">
-          Bring the key message to the<br />
-          brand's audience for the best price<br />
-          within the shortest possible time.
-        </p>
-        <h3 class="method-title">Diligence</h3>
-        <p class="method-text">
-          Research and confirm brands that<br />
-          present the strongest digital growth<br />
-          opportunities and minimize risk.
-        </p>
-        <h3 class="method-title">Technologies</h3>
-        <p class="method-text">
-          Design practice focused on digital<br />
-          experiences. We bring forth a deep<br />
-          passion for problem-solving.
-        </p>
+      <section class="section-working">
+        <div class="working-method">
+          <ul class="method-card">
+            <li class="methods">
+              <h3 class="method-title">Strategy</h3>
+              <p class="method-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="methods">
+              <h3 class="method-title">Punctulity</h3>
+              <p class="method-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="methods">
+              <h3 class="method-title">Diligence</h3>
+              <p class="method-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="methods">
+              <h3 class="method-title">Technologies</h3>
+              <p class="method-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team-workers">
-        <h2 class="team-workers-title">Our Team</h2>
-        <ul>
-          <li>
-            <button class="team-card">
+        <div class="our-team">
+          <h2 class="team-workers-title">Our Team</h2>
+          <ul class="team-card-list">
+            <li class="team-card">
               <img
                 src="images/mark-guerrero.jpg"
                 class="team-image"
@@ -88,10 +98,8 @@
               />
               <h3 class="worker-name">Mark Guerrero</h3>
               <p class="text">Product Designer</p>
-            </button>
-          </li>
-          <li>
-            <button class="team-card">
+            </li>
+            <li class="team-card">
               <img
                 src="images/tom-ford.jpg"
                 class="team-image"
@@ -101,10 +109,8 @@
               />
               <h3 class="worker-name">Tom Ford</h3>
               <p class="text">Frontend Developer</p>
-            </button>
-          </li>
-          <li>
-            <button class="team-card">
+            </li>
+            <li class="team-card">
               <img
                 src="images/camila-garcia.jpg"
                 class="team-image"
@@ -114,10 +120,8 @@
               />
               <h3 class="worker-name">Camila Garcia</h3>
               <p class="text">Marketing</p>
-            </button>
-          </li>
-          <li>
-            <button class="team-card">
+            </li>
+            <li class="team-card">
               <img
                 src="images/daniel-wilson.jpg"
                 class="team-image"
@@ -127,92 +131,96 @@
               />
               <h3 class="worker-name">Daniel Wilson</h3>
               <p class="text">UI Designer</p>
-            </button>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team-project">
-        <h2 class="title">Our Portfolio</h2>
-        <ul class="project-list">
-          <li>
-            <img
-              src="images/banking-app.jpg"
-              class="project-image"
-              alt="Banking App"
-              width="360px"
-              height="300px"
-            />
-            <h3 class="project-title">Banking App</h3>
-            <p class="project-text">App</p>
-          </li>
-          <li>
-            <img
-              src="images/cashless-payment.jpg"
-              class="project-image"
-              alt="Cashless Payment"
-              width="360px"
-              height="300px"
-            />
-            <h3 class="project-title">Cashless Payment</h3>
-            <p class="project-text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/meditation-app.jpg"
-              class="project-image"
-              alt="Meditation App"
-              width="360px"
-              height="300px"
-            />
-            <h3 class="project-title">Meditation App</h3>
-            <p class="project-text">App</p>
-          </li>
-          <li>
-            <img
-              src="images/taxi-service.jpg"
-              class="project-image"
-              alt="Taxi Service"
-              width="360px"
-              height="300px"
-            />
-            <h3 class="project-title">Taxi Service</h3>
-            <p class="project-text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/screen-illustrations.jpg"
-              class="project-image"
-              alt="Screen Illustration"
-              width="360px"
-              height="300px"
-            />
-            <h3 class="project-title">Screen Illustration</h3>
-            <p class="project-text">Design</p>
-          </li>
-          <li>
-            <img
-              src="images/online-courses.jpg"
-              class="project-image"
-              alt="Online Courses"
-              width="360px"
-              height="300px"
-            />
-            <h3 class="project-title">Online Courses</h3>
-            <p class="project-text">Marketing</p>
-          </li>
-        </ul>
+        <div class="our-portfolio">
+          <h2 class="title">Our Portfolio</h2>
+          <ul class="project-list">
+            <li class="li-border">
+              <img
+                src="images/banking-app.jpg"
+                class="project-image"
+                alt="Banking App"
+                width="360px"
+                height="300px"
+              />
+              <h3 class="project-title">Banking App</h3>
+              <p class="project-text">App</p>
+            </li>
+            <li class="li-border">
+              <img
+                src="images/cashless-payment.jpg"
+                class="project-image"
+                alt="Cashless Payment"
+                width="360px"
+                height="300px"
+              />
+              <h3 class="project-title">Cashless Payment</h3>
+              <p class="project-text">Marketing</p>
+            </li>
+            <li class="li-border">
+              <img
+                src="images/meditation-app.jpg"
+                class="project-image"
+                alt="Meditation App"
+                width="360px"
+                height="300px"
+              />
+              <h3 class="project-title">Meditation App</h3>
+              <p class="project-text">App</p>
+            </li>
+            <li class="li-border">
+              <img
+                src="images/taxi-service.jpg"
+                class="project-image"
+                alt="Taxi Service"
+                width="360px"
+                height="300px"
+              />
+              <h3 class="project-title">Taxi Service</h3>
+              <p class="project-text">Marketing</p>
+            </li>
+            <li class="li-border">
+              <img
+                src="images/screen-illustrations.jpg"
+                class="project-image"
+                alt="Screen Illustration"
+                width="360px"
+                height="300px"
+              />
+              <h3 class="project-title">Screen Illustration</h3>
+              <p class="project-text">Design</p>
+            </li>
+            <li class="li-border">
+              <img
+                src="images/online-courses.jpg"
+                class="project-image"
+                alt="Online Courses"
+                width="360px"
+                height="300px"
+              />
+              <h3 class="project-title">Online Courses</h3>
+              <p class="project-text">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="page-footer">
-      <a href="#main page" target="_blank" class="footer-logo">
-        <span class="web">WEB</span><span class="studio">STUDIO</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and<br />
-        sales for your business with digital<br />
-        marketing & growth solutions.
-      </p>
+      <div class="footer-container">
+        <a href="#main page" target="_blank" class="footer-logo">
+          <span class="web">WEB</span><span class="studio">STUDIO</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and<br />
+          sales for your business with digital<br />
+          marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
