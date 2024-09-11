@@ -79,7 +79,7 @@ img {
 .nav-item a {
   text-decoration: none;
   color: #2e2f42;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 .nav-item a:hover {
@@ -156,7 +156,7 @@ section {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 4px;
-  text-shadow: 0px 4px 4px #000000 15%;
+  text-shadow: 0px 4px 4px #000000;
 }
 
 .button:hover {
@@ -286,7 +286,8 @@ section {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5em;
-  letter-spacing: 2% color #2e2f42;
+  letter-spacing: 2px;
+  color: #2e2f42;
 }
 .portfolio-list {
   list-style: none;
@@ -319,7 +320,9 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5em;
-  letter-spacing: 2% color #2e2f42;
+  letter-spacing: 2px;
+  color: #2e2f42;
+
 }
 
 .portfolio-description {
@@ -382,5 +385,4 @@ section {
   line-height: 1.5em;
   letter-spacing: 2px;
   padding-left: 156px
- 
 }
