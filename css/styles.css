@@ -292,12 +292,13 @@ section {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content:center;
   gap: 8px;
-  max-width: 1128px;
-  height: 1000px;
   left: 156px;
   top: 1868px;
   margin: 0 auto;
+  align-items: center;
+
 }
 .portfolio-item {
   border-width: 0px 1px 1px 1px;
@@ -307,8 +308,9 @@ section {
 
 .portfolio-info {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
 }
 
 .portfolio-title {
@@ -332,41 +334,53 @@ section {
 
 /* Footer */
 .footer {
-  padding-left: 156px;
-  padding-bottom: 100px;
   background-color: #2d2f36;
+  border: 1px solid #E7E9FC;
   color: #ffffff;
   margin: 0 auto;
-  padding: 100px 0;
+  width: 1440px;
+  height: 312px;
+  padding: 120px 0;
 }
-
-.footer-content {
-  text-align: left;
-  width: 264px;
-  margin-left: 156px;
-}
-
-.footer-link {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
+  padding-left: 156px;
 }
 
 /* "WEB"*/
 .footer-content a span:first-child {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 3px;
   color: #4d5ae5;
+  width: 44px;
+  height: 21px;
 }
-
 /* "STUDIO"*/
 .footer-content a span:last-child {
-  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3125em;
+  letter-spacing: 3px;
+  color: #f4f4fd;
+  width: 71px;
+  height: 21px;
 }
 
 .footer-description {
-  max-width: 264px;
+  color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  margin-top: 10px;
-  color: #ffffff;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+  padding-left: 156px
+ 
 }
