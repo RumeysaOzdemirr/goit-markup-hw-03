@@ -91,11 +91,13 @@ img {
   color: #404bbf;
   text-decoration: underline;
 }
-.page-link {
+.contact-list .page-link {
   list-style-type: none;
   padding-right: 80px;
   display: flex;
   gap: 40px;
+  padding-left: 40px;
+  align-items: center;
 }
 .page-link a {
   font-size: 16px;
@@ -105,6 +107,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   margin-left: 50px;
+  gap: 32px;
 }
 .page-link a:hover {
   color: #404bbf;
@@ -138,30 +141,30 @@ img {
   font-size: 16px;
   background-color: #4d5ae5;
   color: #ffffff;
-  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px #00000026;
   min-width: 169px;
   height: 56px;
   border: none;
+  display: block;
+  margin: 0 auto;
 }
 .main-class button:hover {
   background-color: #404bbf;
 }
 
-.container {
+.section-title .container {
   width: 1158px;
   margin: 0 auto;
 }
-.section-info {
+.info-section {
   padding: 120px 0;
   padding-bottom: 120px;
   padding-left: 156px;
 }
 
-
-.visually-hidden {
+.container .visually-hidden {
   position: relative;
   font-family: "Roboto";
   font-weight: 700;
@@ -175,26 +178,23 @@ img {
   clip: rect(0, 0, 0, 0);
   
 }
-.section-info .section-list {
+.section-list {
   list-style-type: none;
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.section-list .section-list-item{
-  width: calc((100% - 72px) / 4);
-}
-.section-info .info-title {
+
+.info-title {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 2px;
   color: #2e2f42;
   margin-bottom: 8px;
 }
 
-.section-info p {
+.info-text {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
@@ -237,10 +237,13 @@ img {
 .team-img li {
   background-color: #ffffff;
 }
-.card-team-1 {
-  box-shadow: 1px 1px 3px;
+.card-item-1 {
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px
+  border-radius: 0px 0px 4px 4px;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  width: 264px;
 }
 .card-team {
   box-shadow: 1px 1px 3px;
@@ -286,8 +289,8 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
   text-align: left;
+  margin-bottom:8px;
 }
 .name-category .name {
   height: 50px;
@@ -301,14 +304,14 @@ img {
   font-weight: 400;
   line-height: 24px;
 }
-.footer-class {
+.footer {
   background-color: #2e2f42;
   height: 312px;
   text-align: left;
   padding: 100px 0;
   width: 1440px;
 }
-.footer-container .logo {
+.footer .container .logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
