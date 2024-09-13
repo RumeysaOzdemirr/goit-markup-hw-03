@@ -24,7 +24,20 @@ body {
   width: 1440px;
   height: 3330px;
 }
-nav {
+img{
+  display: block;
+}
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,13 +59,17 @@ nav {
   color: #2e2f42;
 }
 
-.page-menu-list {
+.header-nav .page-menu-list {
   list-style-type: none;
   display: flex;
   margin-right: auto;
+  gap: 40px;
 }
 .page-menu-list li {
   margin-left: 33px;
+}
+li .menu {
+  padding: 24px 0;
 }
 .page-menu-list a {
   font-size: 16px;
@@ -74,6 +91,7 @@ nav {
   list-style-type: none;
   padding-right: 80px;
   display: flex;
+  gap: 40px;
 }
 .page-link a {
   font-size: 16px;
