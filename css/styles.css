@@ -68,7 +68,7 @@ img{
 .page-menu-list li {
   margin-left: 33px;
 }
-li .menu {
+li .menu .menu-studio {
   padding: 24px 0;
 }
 .page-menu-list a {
@@ -79,6 +79,7 @@ li .menu {
   color: #2e2f42;
   text-decoration: none;
   font-family: "Roboto";
+  margin-right: 76px;
 }
 .page-menu-list a:hover {
   color: #404bbf;
@@ -87,7 +88,7 @@ li .menu {
   color: #404bbf;
   text-decoration: underline;
 }
-.page-link {
+.contact-list .page-link {
   list-style-type: none;
   padding-right: 80px;
   display: flex;
