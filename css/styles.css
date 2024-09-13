@@ -3,17 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0 auto;
-  padding: 0;
-}
+
 .body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -31,7 +21,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
+.header-container .container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -55,6 +45,7 @@ img {
   line-height: 21px;
   font-family: "Raleway";
   text-decoration: none;
+  margin-right: 76px;
 }
 .header-logo {
   color: #2e2f42;
@@ -69,7 +60,7 @@ img {
 .page-menu-list li {
   margin-left: 33px;
 }
-li .menu .menu-studio {
+.page-menu-list > .menu-studio {
   padding: 24px 0;
 }
 .page-menu-list a {
@@ -92,8 +83,8 @@ li .menu .menu-studio {
 .contact-list .page-link {
   list-style-type: none;
   padding-right: 80px;
-  display: flex;
-  gap: 40px;
+  display:flex;
+  gap:40px;
 }
 .page-link a {
   font-size: 16px;
@@ -158,11 +149,12 @@ li .menu .menu-studio {
   width: 1158px;
   margin: 0 auto;
 }
-.section-info {
+.section-info .container {
   padding-top: 120px 0;
   padding-bottom: 120px;
   padding-left: 156px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -175,11 +167,11 @@ li .menu .menu-studio {
 }
 .section-info .section-list {
   list-style-type: none;
-  display: flex;
+  display:flex;
   align-items: center;
-  gap: 24px;
+  gap:24px;
 }
-.section-list .section-list-item{
+.section-info .section-list-item {
   width: calc((100% - 72px) / 4);
 }
 .section-info .info-title {
