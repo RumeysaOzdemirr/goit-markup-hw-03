@@ -24,14 +24,14 @@ ul {
   width: 1440px;
   height: 3330px;
 }
-img{
+img {
   display: block;
 }
 
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -149,7 +149,6 @@ li .menu .menu-studio {
   min-width: 169px;
   height: 56px;
   border: none;
-
 }
 .main-class button:hover {
   background-color: #404bbf;
@@ -159,25 +158,40 @@ li .menu .menu-studio {
   width: 1158px;
   margin: 0 auto;
 }
-.section {
-  padding-top: 120px;
+.section-info {
+  padding-top: 120px 0;
   padding-bottom: 120px;
   padding-left: 156px;
 }
-.section-list {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.section-info .section-list {
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 37px;
+  gap: 24px;
 }
-.section-info h3 {
+.section-list .section-list-item{
+  width: calc((100% - 72px) / 4);
+}
+.section-info .info-title {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 2px;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
 .section-info p {
   font-family: "Roboto";
   font-size: 16px;
@@ -193,9 +207,8 @@ li .menu .menu-studio {
   align-items: center;
   width: 1440px;
   height: 732px;
-  border: 1px #E7E9FC;
+  border: 1px #e7e9fc;
   padding: 0 120px;
-
 }
 .section-team h2 {
   font-family: "Roboto";
@@ -315,7 +328,6 @@ footer a {
 }
 .footer-logo {
   color: #f4f4fd;
-  
 }
 footer p {
   font-size: 1em;
