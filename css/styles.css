@@ -104,7 +104,7 @@ section{
   padding-left: 40px;
   align-items: center;
 }
-.page-link a {
+.address-link a {
   font-size: 16px;
   font-family: "Roboto";
   font-weight: 400;
@@ -114,9 +114,15 @@ section{
   margin-left: 50px;
   gap: 32px;
 }
-.page-link a:hover {
+.address-link a:hover {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.call{
+  align-items: center;
+  display: flex;
+ 
 }
 
 .section-title {
