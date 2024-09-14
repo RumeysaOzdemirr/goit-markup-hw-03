@@ -111,7 +111,6 @@ section{
   line-height: 24px;
   color: #2e2f42;
   text-decoration: none;
-  margin-left: 50px;
   gap: 32px;
 }
 .address-link a:hover {
@@ -119,11 +118,7 @@ section{
   text-decoration: underline;
 }
 
-.call{
-  align-items: center;
-  display: flex;
- 
-}
+
 
 .section-title {
   background-color: #2e2f42;
