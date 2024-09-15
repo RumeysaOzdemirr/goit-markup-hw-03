@@ -21,7 +21,6 @@ ul {
   margin: 0 auto;
   padding: 0 120px;
   max-width: 100%;
-  width: 1440px;
   height: 3330px;
 }
 img {
@@ -37,11 +36,11 @@ section{
   border-bottom: 1px solid #e7e9fc;
   
 }
-.header-container .container{
+.container{
   display: flex;
   margin: 0 auto;
-  padding: 0  15px;
- 
+  padding: 0 15px;
+  width: 1158px;
 }
 
 .header-nav {
