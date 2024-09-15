@@ -18,8 +18,8 @@ ul {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 120px;
   max-width: 100%;
   width: 1440px;
   height: 3330px;
@@ -33,14 +33,15 @@ section{
 }
 .header-container {
   display: flex;
-  width: 1158px;
+  width: 1440px;
   border-bottom: 1px solid #e7e9fc;
+  
 }
 .header-container .container{
   display: flex;
   margin: 0 auto;
-  padding: 0 15px;
-  width: 1158px;
+  padding: 0  15px;
+ 
 }
 
 .header-nav {
@@ -96,15 +97,14 @@ section{
   color: #404bbf;
   text-decoration: underline;
 }
-.address-link {
-  list-style-type: none;
-  padding-right: 80px;
+.page-address-link {
+  list-style: none;
   display: flex;
   gap: 40px;
-  padding-left: 40px;
   align-items: center;
+  justify-content: space-between;
 }
-.address-link a {
+.address-list-link {
   font-size: 16px;
   font-family: "Roboto";
   font-weight: 400;
@@ -113,12 +113,11 @@ section{
   text-decoration: none;
   gap: 32px;
 }
-.address-link a:hover {
+
+.address-list-link:hover {
   color: #404bbf;
   text-decoration: underline;
 }
-
-
 
 .section-title {
   background-color: #2e2f42;
@@ -170,7 +169,7 @@ section .info-section {
   padding-left: 156px;
 }
 
-.container .visually-hidden {
+.visually-hidden {
   position: absolute;
   margin: -1px;
   width: 1px;
@@ -180,19 +179,23 @@ section .info-section {
   clip-path: inset(100%);
   border: 0;
   padding: 0;
+  white-space: nowrap;
 }
 .section-list {
   list-style-type: none;
   display: flex;
   align-items: center;
   gap: 24px;
+  margin: 0 auto;
+  width: 1110px;
+ 
 }
 .section-list-item{
   width: calc((100% - 72px) / 4);
   padding: 120px 0;
   margin: 0 auto;
 }
-.section-list-item .info-title {
+.info-title {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 500;
@@ -219,7 +222,7 @@ section .info-section {
   border: 1px #e7e9fc;
   padding: 120px 0;
 }
-.section-team .section-our-team {
+.container .section-our-team {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
@@ -231,7 +234,7 @@ section .info-section {
   margin-bottom: 72px;
 }
 
-.team-cards .team-list {
+.container .team-list {
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -240,7 +243,7 @@ section .info-section {
 }
 
 
-.card-item {
+.card-list {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   align-items: center;
@@ -251,7 +254,10 @@ section .info-section {
   box-shadow: 1px 1px 3px;
 }
 
-.card-item .card-items-name {
+.card-items{
+  padding: 32px 0;
+}
+.card-items .card-items-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -259,7 +265,7 @@ section .info-section {
   text-align: center;
   margin-bottom: 8px;
 }
-.card-item .card-items-text {
+.card-items .card-items-text {
   font-size: 1em;
   font-weight: 400;
   line-height: 24px;
