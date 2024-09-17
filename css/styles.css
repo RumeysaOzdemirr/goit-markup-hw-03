@@ -89,7 +89,7 @@ section{
   color: #404bbf;
   text-decoration: underline;
 }
-.link-address {
+.contact-list {
   list-style: none;
   display: flex;
   gap: 40px;
