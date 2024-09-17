@@ -125,6 +125,7 @@ section{
   text-align: center;
   padding-bottom: 48px;
   margin: 0 auto;
+  max-width: 496px;
 }
 
 .main-class .button {
@@ -140,6 +141,7 @@ section{
   border: none;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 .main-class button:hover {
   background-color: #404bbf;
