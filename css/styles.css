@@ -19,7 +19,6 @@ ul {
   color: #2e2f42;
   background-color: #ffffff;
   margin: 0 auto;
-  max-width: 100%;
   width: 1440px;
 }
 img {
@@ -32,18 +31,14 @@ section{
 }
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
   
 }
-.container{
+.header-container .container{
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
-  width: 100%;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
-  max-width: 1440px;
-  height: 72px;
   width: 1158px;
 }
 
@@ -56,7 +51,6 @@ section{
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  height: 24px;
   line-height: 21px;
   font-family: "Raleway";
   text-decoration: none;
@@ -72,9 +66,7 @@ section{
   margin-right: auto;
   gap: 40px;
 }
-.page-menu-list li {
-  margin-left: 33px;
-}
+
 .menu .menu-studio {
   padding: 24px 0;
 }
@@ -87,6 +79,7 @@ section{
   text-decoration: none;
   font-family: "Roboto";
   margin-right: 76px;
+  
 }
 .page-menu-list a:hover {
   color: #404bbf;
@@ -100,7 +93,6 @@ section{
   display: flex;
   gap: 40px;
   align-items: center;
-  justify-content: space-between;
 }
 .address-list-link {
   font-size: 16px;
@@ -109,7 +101,6 @@ section{
   line-height: 24px;
   color: #2e2f42;
   text-decoration: none;
-  gap: 32px;
 }
 
 .address-list-link:hover {
@@ -120,10 +111,8 @@ section{
 .section-title {
   background-color: #2e2f42;
   font-family: "Roboto";
-  height: 600px;
   display: flex;
   text-align: center;
-  width: 1440px;
   padding: 188px 0;
 }
 
@@ -134,7 +123,6 @@ section{
   font-size: 56px;
   color: #ffffff;
   text-align: center;
-  max-width: 496px;
   padding-bottom: 48px;
   margin: 0 auto;
 }
@@ -149,8 +137,6 @@ section{
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px #00000026;
-  min-width: 169px;
-  height: 56px;
   border: none;
   display: block;
   margin: 0 auto;
@@ -160,7 +146,6 @@ section{
 }
 
 .main-claas{
-  max-width: 100%;
   align-items: center;
   display: block;
 }
@@ -229,8 +214,6 @@ section .info-section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1440px;
-  height: 732px;
   border: 1px #e7e9fc;
   padding: 120px 0;
 }
@@ -240,7 +223,6 @@ section .info-section {
   justify-content: center;
   align-items: center;
   width: 1158px;
-  height: 732px;
   border: 1px #e7e9fc;
   padding: 0 15px;
   margin: 0 auto;
@@ -266,10 +248,7 @@ section .info-section {
   gap: 24px;
   justify-content: space-evenly;
   margin: 0;
-  
 }
-
-
 .card-list {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -301,7 +280,6 @@ section .info-section {
 
 .section-portfolio {
   padding: 120px 0;
-  height: 1350px;
   margin: 0;
 }
 .section-portfolio .container{
@@ -312,7 +290,6 @@ section .info-section {
   flex-direction: column;
   justify-content: center;
   width: 1158px;
-  margin-top: 500px;
   border: 1px none #e7e9fc;
 }
 .section-portfolio .section-portfolio-title {
@@ -332,7 +309,6 @@ section .info-section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  height: 1000px;
 }
 
 .name-category{
@@ -360,7 +336,6 @@ section .info-section {
   text-align: left;
   justify-content: flex-start;
   padding: 100px 0;
-  width: 1440px;
 }
 .footer .container{
   width: 1158px;
@@ -369,7 +344,6 @@ section .info-section {
   padding: 0 15px;
   margin: 0 auto;
   display: block;
-
 }
 .footer .container .logo {
   font-size: 18px;
