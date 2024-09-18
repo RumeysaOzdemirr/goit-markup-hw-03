@@ -19,7 +19,6 @@ ul {
   color: #2e2f42;
   background-color: #ffffff;
   margin: 0 auto;
-  width: 1440px;
 }
 img {
   display: block;
@@ -89,11 +88,15 @@ section{
   color: #404bbf;
   text-decoration: underline;
 }
-.contact-list {
-  list-style: none;
+.address {
   display: flex;
   gap: 40px;
   align-items: center;
+}
+
+.page-address-list-item{
+  list-style-type: none;
+  display: inline-block;
 }
 .address-list-link {
   font-size: 16px;
