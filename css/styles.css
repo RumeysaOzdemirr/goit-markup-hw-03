@@ -118,6 +118,10 @@ section{
   display: flex;
   text-align: center;
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 
@@ -130,6 +134,7 @@ section{
   padding-bottom: 48px;
   margin: 0 auto;
   max-width: 496px;
+
 }
 
 .main-class .button {
@@ -198,6 +203,27 @@ section .info-section {
   width: calc((100% - 72px) / 4);
   box-sizing: border-box;
 }
+
+.icon-box{
+  border: 1px solid #8E8F99;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon {
+  position: relative;
+  top: 24px;
+  left: 100px;
+}
+
+
 .info-title {
   font-family: "Roboto";
   font-size: 20px;
