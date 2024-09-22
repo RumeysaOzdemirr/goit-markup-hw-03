@@ -312,17 +312,40 @@ section .info-section {
   display: flex;
   justify-content: center;
   gap: 20px;
-  fill: #4D5AE5;
-}
-
-.social-media-icon:hover{
-  fill: #31D0AA;
 }
 
 .card-items .icon{
   left: 0px;
   margin: 0;
   gap: 20px;
+}
+
+.icon-instagram{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-instagram:hover{
+  --color1: #31D0AA;
+}
+
+.icon-twitter{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-twitter:hover{
+  --color1: #31D0AA;
+}
+
+.icon-facebook{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-facebook:hover{
+  --color1: #31D0AA;
+}
+
+.icon-linkedin{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-linkedin:hover{
+  --color1: #31D0AA;
 }
 
 .card-items .card-items-name {
