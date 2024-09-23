@@ -366,7 +366,8 @@ section .info-section {
   height: 112px;
   padding: 0 15px;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .footer .container .logo {
   font-size: 18px;
