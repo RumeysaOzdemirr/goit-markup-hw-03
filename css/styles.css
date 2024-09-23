@@ -118,10 +118,6 @@ section{
   display: flex;
   text-align: center;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 
@@ -170,14 +166,6 @@ section{
   flex-direction: column;
 }
 
-.section-title::after{
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  opacity: 0.7;
-}
-
 section .info-section {
   padding: 120px 0;
   margin: 0;
@@ -211,25 +199,6 @@ section .info-section {
 .section-list-item{
   width: calc((100% - 72px) / 4);
   box-sizing: border-box;
-}
-
-.icon-box{
-  border: 1px solid #8E8F99;
-  background-color: #F4F4FD;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  
-}
-
-.icon {
-  position: relative;
-  top: 24px;
-  left: 100px;
-}
-.icon:hover{
-  transform: scale(1.1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .info-title {
@@ -305,49 +274,6 @@ section .info-section {
   padding: 32px 0;
 }
 
-.social-media-icon{
-  position: relative;
-  bottom: 1px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.card-items .icon{
-  left: 0px;
-  margin: 0;
-  gap: 20px;
-}
-
-.icon-instagram{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-instagram:hover{
-  --color1: #31D0AA;
-}
-
-.icon-twitter{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-twitter:hover{
-  --color1: #31D0AA;
-}
-
-.icon-facebook{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-facebook:hover{
-  --color1: #31D0AA;
-}
-
-.icon-linkedin{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-linkedin:hover{
-  --color1: #31D0AA;
-}
-
 .card-items .card-items-name {
   font-size: 20px;
   font-weight: 500;
@@ -388,28 +314,6 @@ section .info-section {
   padding-bottom: 55px;
 }
 
-.portfolio-items{
-  position: relative;
-  overflow: hidden;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: box-shadow;
-}
-.portfolio-item:hover{
-  box-shadow: 1px 1px 1px 1px #2E2F4214;
-}
-
-.portfolio-overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 360px;
-  height: 300px;
-  display: flex;
-  margin: 0 auto;
-  background-color: #4d5ae5;
-  opacity: 0;
-  transition: 250 ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .portfolio-content {
   color: #f4f4fd;
@@ -422,16 +326,6 @@ section .info-section {
   line-height: 1.5;
   letter-spacing: 2%;
 }
-
-.portfolio-items:hover .portfolio-overlay {
-  opacity: 1;
-}
-.portfolio-items:hover {
-  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
-    0px 1px 6px 0px #2e2f4214;
-    
-}
-
 .list-portfolio {
   list-style-type: none;
   display: flex;
@@ -497,49 +391,3 @@ section .info-section {
   margin: 0;
 }
 
-.social-media-footer{
-  width: 208px;
-  height: 80px;
-  top: 3296px;
-}
-
-.social-media-name{
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #FFFFFF;
-}
-
-.social-media-icon-list {
-  list-style-type: none;
-  display: flex;
-  width: 208px;
-  height: 40px;
-  gap: 24px;
-}
-.instagram-footer{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.instagram-footer:hover{
-  --color1: #31D0AA;
-}
-.twitter-footer{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.twitter-footer:hover{
-  --color1: #31D0AA;
-}
-.facebook-footer{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.facebook-footer:hover{
-  --color1: #31D0AA;
-}
-.linkedin-footer{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.linkedin-footer:hover{
-  --color1: #31D0AA;
-}
